@@ -1,0 +1,18 @@
+# Dependencias principales
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+reportlab>=4.0.0
+pytesseract>=0.3.10
+imutils>=0.5.4
+scikit-image>=0.21.0
+
+# Dependencias opcionales para funcionalidades avanzadas
+PyPDF2>=3.0.0  # Para combinar PDFs
+pdf2image>=1.16.0  # Para convertir PDF a imágenes
+
+# Dependencias del sistema (instalar por separado)
+# tesseract-ocr (para OCR en español)
+# Para Windows: https://github.com/UB-Mannheim/tesseract/wiki
+# Para Ubuntu: sudo apt install tesseract-ocr tesseract-ocr-spa
+# Para macOS: brew install tesseract tesseract-lang
