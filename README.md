@@ -1,8 +1,8 @@
-# 📄 Escáner de Documentos
+#Escáner de Documentos
 
 Aplicación de escritorio desarrollada en Python para digitalizar documentos usando cámara web o archivos de imagen, con procesamiento automático y exportación a PDF.
 
-## ✨ Características
+##Características
 
 - **Captura desde cámara web** o archivos (JPG, PNG, BMP, TIFF)
 - **Detección automática de bordes** y corrección de perspectiva
@@ -12,7 +12,7 @@ Aplicación de escritorio desarrollada en Python para digitalizar documentos usa
 - **OCR para extracción de texto** en español
 - **Interfaz gráfica intuitiva** con tkinter
 
-## 🛠️ Instalación
+##Instalación
 
 ### Requisitos
 - Python 3.8+
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 🚀 Uso
+##Uso
 
 1. **Ejecutar**: `python main.py`
 2. **Capturar**: Desde cámara o cargar archivo
@@ -44,7 +44,7 @@ python main.py
 4. **Ajustar**: Brillo, contraste y nitidez si es necesario
 5. **Guardar**: Como imagen o PDF multipágina
 
-## 🔧 Tecnologías
+##Tecnologías
 
 - **Python** - Lenguaje principal
 - **OpenCV** - Procesamiento de imágenes y detección de bordes
@@ -54,7 +54,7 @@ python main.py
 - **pytesseract** - OCR para extracción de texto
 - **NumPy** - Operaciones numéricas
 
-## 📁 Estructura del Proyecto
+##Estructura del Proyecto
 
 ```
 document_scanner/
@@ -67,7 +67,7 @@ document_scanner/
 └── README.md             # Documentación
 ```
 
-## 🎯 Características Destacadas
+##Características Destacadas
 
 - **Detección automática de documentos** usando algoritmos de OpenCV
 - **Corrección de perspectiva** para enderezar documentos escaneados
